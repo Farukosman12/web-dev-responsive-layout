@@ -1,0 +1,101 @@
+
+    /* banner part-2 */
+    .section-container{
+        background-image: url('../images/hero-bg.png');
+        max-width: 1600px;
+        height: 720px;
+        width: 100%;
+        margin: 0px auto;
+        /* border: 2px solid aqua; */
+    }
+    .nav-banner{
+        width: 100%;
+        width: 550px;
+        height: 558px;
+        align-items: center;
+        text-align: center;
+        color: white;
+        margin: 101px 525px 101px 525px;
+        /* border: 1px solid aqua; */
+    }
+    .banner-img-1{
+        width: 350px;
+        height: 350px;
+        margin: 0px 101px 40px 101px;
+        /* border: 1px solid aqua; */
+    }
+    .btn-primary-1{
+        width: 75px;
+        height: 38px;
+        padding: 8px 16px;
+        background-color: #00FF88;
+        border-radius: 25px;
+    }
+    .btn-primary-2{
+        width: 201px;
+        height: 44px;
+        margin: 24px 8px 0px 9px;
+        border-radius: 25px;
+        padding: 12px 20px;
+        /* border: 1px solid #00ffff; */
+        background-image: linear-gradient(to top right, #F7E93F 0%, #F9797A 26%, #FB09B4 51%, #9100F8 100%);
+
+    }
+    .btn-primary-3{
+        width: 147px;
+        height: 44px;
+        border-radius: 25px;
+        background-color: #1A0B2E;
+        color: #00FF88;
+        padding: 20px 12px;
+        border: 1px solid #00FF88;
+    }
+    .btn-pic{
+        width: 20px;
+        height: 20px;
+        
+    }
+    .btn-link-1{
+        color: white;
+        width: 133px;
+        height: 19px;
+        margin: 12px 20px 12px 8px;
+        text-decoration: none;
+    }
+    .btn-link-2{
+        color: #00FF88;
+        width: 147px;
+        height: 44px;
+        margin: 12px 20px 12px 8px;
+        text-decoration: none;
+        
+    }
+    
+    .banner-des-1{
+        width: 200px;
+        height: 200px;
+        margin: 69px 175px 289px 175px;
+        margin-top:-330px;
+        /* border: 1px solid aquamarine; */
+
+    }
+    .banner-des-2{
+        margin-top: -200px;
+        margin-left: 110px;
+    }
+    .banner-des-3{
+        width: 550px;
+        height: 168px;
+        margin-top: -165px;
+        gap: 24px;
+        /* border: 2px solid aqua; */
+    }
+    .btn-link{
+        text-decoration: none;
+    }
+    .banner-img-2{
+        width: 116.67px;
+        height: 175px;
+        /* margin: 8.33px 41.67px 16.67px 41.67px; */
+        /* border: 1px solid aqua;    */
+    }
