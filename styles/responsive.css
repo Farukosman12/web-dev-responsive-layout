@@ -1,9 +1,64 @@
+    .nav-header{
+        width: 100%;
+        margin: 0px auto;
+        width: 1600px;
+        height: 92px;
+        background-color: #1A0B2E;
+        /* border: 3px solid aqua; */
+    }
+    .nav-brand{
+        width: 219px;
+        height: 32px;
+        font-size: 25px;
+        margin: 30px 314px 30px 200px;
+    }
+    .brand-color{
+        color:#FB09B4;
+    }
+    .nav-title{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+    }
+    .nav-link{
+        display: flex;
+        gap: 32px;
+        list-style: none;
+        justify-content: center;
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+        color: white;
+    }
+    .nav-link-1{
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        gap: 5px;
+        color: white;
+
+    }
+    .btn-primary{
+        width: 135px;
+        height: 44px;
+        margin: 24px 200px 24px 314px;
+        gap: 4px;
+        border-radius: 25px;
+        padding: 12px 25px;
+        background-image: linear-gradient(to top right, #F7E93F 0%, #F9797A 26%, #FB09B4 51%, #9100F8 100%);
+    }
+    .btn-pic{
+        width: 20px;
+        height: 20px;
+    }
 
     /* banner part-2 */
     .section-container{
         background-image: url('../images/hero-bg.png');
         max-width: 1600px;
-        height: 720px;
+        height: 760px;
         width: 100%;
         margin: 0px auto;
         /* border: 2px solid aqua; */
@@ -37,7 +92,7 @@
         height: 44px;
         margin: 24px 8px 0px 9px;
         border-radius: 25px;
-        padding: 12px 20px;
+        padding: 14px 25px;
         /* border: 1px solid #00ffff; */
         background-image: linear-gradient(to top right, #F7E93F 0%, #F9797A 26%, #FB09B4 51%, #9100F8 100%);
 
@@ -45,29 +100,38 @@
     .btn-primary-3{
         width: 147px;
         height: 44px;
+        margin: 12px 22px 12px 8px;
+        align-items: center;
         border-radius: 25px;
         background-color: #1A0B2E;
         color: #00FF88;
-        padding: 20px 12px;
+        padding: 16px 25px;
         border: 1px solid #00FF88;
     }
-    .btn-pic{
+    .btn-pic-2{
         width: 20px;
         height: 20px;
         
     }
     .btn-link-1{
+        display: flex;
+        align-items: center;
+        text-align: center;
         color: white;
+        gap: 10px;
         width: 133px;
         height: 19px;
-        margin: 12px 20px 12px 8px;
+        /* margin: 12px 20px 12px 8px; */
         text-decoration: none;
     }
     .btn-link-2{
+        display: flex;
         color: #00FF88;
-        width: 147px;
-        height: 44px;
-        margin: 12px 20px 12px 8px;
+        width: 79px;
+        height: 19px;
+        align-items: center;
+        gap: 10px;
+        /* margin: 12px 20px 12px 8px; */
         text-decoration: none;
         
     }
@@ -388,25 +452,47 @@
         gap: 30px;
         border-radius: 30px;
         background-color: #231633;
+        /* border: 1px solid aqua; */
         
     }
     .episode-speech-4{
         width: 896px;
         height: 183px;
+        margin: 48px 40px 48px 5px;
         /* border: 1px solid aqua; */
-        margin: 48px 40px 48px 48px;
     }
     .social-icons{
+        width: 184px;
+        height: 40px;
+        margin: 16px 712px 0px 0px;
         display: flex;
         align-items: center;
-        gap: 10px;
-        /* margin-top: 30px; */
+        gap: 8px;
+        /* border: 2px solid aqua; */
+    }
+    .logo-s{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        border-radius: 25px;
+        border: 2px solid #5b1245;
+
+    }
+    .logo-pic{
+        width: 20px;
+        height: 20px;
+        margin: 10.5px 9.5px 9.5px 10px;
+        align-items: center;
+        /* border: 1px solid #533C72; */
     }
     .media-pic{
         width: 200px;
         height: 200px;
-        margin: 40px 40px;
+        margin: 40px 4px 40px 40px;
         border-radius: 50%;
+        /* border: 1px solid aqua; */
     }
 
     .footer-head{
@@ -415,78 +501,80 @@
         width: 1600px;
         height: 412px;
         color: white;
-        background-image: url("../images/hero-bg.png");
         display: flex;
-        border: 1px solid aqua;
+        background-image: url("../images/footer-bg.png");
+        /* border: 1px solid aqua; */
     }    
     .footer-abouts{
         width: 1360px;
         height: 172px;
-        border: 2px solid #00ff88;
         text-align: center;
-        margin: 170px 120px 120px  120px;
-        gap: 24px;
+        margin: 120px 120px 120px  120px;
+        /* border: 2px solid #00ff88; */
     }
     .footer-description{
         width: 544px;
         height: 24px;
         display: flex;
-        gap: 5px;
         justify-content: center;
-        /* justify-content: space-between; */
-        margin: 10px 408px 10px 408px;
+        justify-content: space-between;
+        margin: 32px 408px 32px 408px;
         /* border: 1px solid #00ff88; */
     }
+    
     .footer-media-a{
         width: 87px;
         height: 24px;
         display: flex;
         align-items: center;
-        text-align: center;
         gap: 8px;
         /* border: 1px solid #00ff88; */
     }
+
     .footer-media-b{
         width: 152px;
         height: 24px;
         display: flex;
         align-items: center;
-        text-align: center;
         gap: 8px;
-        /* border: 1px solid #00ff88; */
-    }
+       /* border: 1px solid #00ff88; */
+    } 
     .footer-media-c{
         width: 99px;
         height: 24px;
         display: flex;
-        align-items: center; */
-        text-align: center;
+        align-items: center;
         gap: 8px;
         /* border: 1px solid #00ff88; */
     }
+    
     .footer-media-d{
         width: 86px;
         height: 24px;
         display: flex;
-        align-items: center; */
-        text-align: center;
+        align-items: center;
         gap: 8px;
         /* border: 1px solid #00ff88; */
     }
+    
     .footer-h1{
         width: 410px;
         height: 60px;
+        text-align: center;
+        margin: 0px 475px 32px 475px;
         /* border: 2px solid #00ff88; */
-        margin: 0px 475px 32px 475px; 
     }
+     
     .footer-color{
         color: #FB09B4;
     }
+
     .footer-y{
     width: 1360px;
     height: 24px;
     /* border: 1px solid aqua; */
     }
+    
     .footer-pic{
         width: 20px;
         height: 20px;
